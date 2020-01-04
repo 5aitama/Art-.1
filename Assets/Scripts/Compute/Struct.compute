@@ -1,0 +1,21 @@
+/*
+ * Struct of a triangle
+*/
+struct BuffTriangle {
+    // 1st vertex
+    float3 a;
+    // 2nd vertex
+    float3 b;
+    // 3nd vertex
+    float3 c;
+};
+
+/*
+ * Struct of a point in grid
+*/
+struct BuffPoint {
+    // local position in the grid
+    float3 pos;
+    // value of the point
+    float val;
+};
